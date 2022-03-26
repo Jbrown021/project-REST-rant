@@ -8,13 +8,13 @@ const router = require('express').Router()
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/papaya-g894e3a140_640.jpg'
       }, {
         name: 'Coding Cat Cafe',
         city: 'Phoenix',
         state: 'AZ',
         cuisines: 'Coffee, Bakery',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/coffee-g2fd5d7855_640.jpg'
       }]
       res.render('places/index', { places })
   })
