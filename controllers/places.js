@@ -1,5 +1,8 @@
 const router = require('express').Router()
-
+//get / places/ new
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
 
     // GET /places
     router.get('/', (req, res) => {
